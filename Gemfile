@@ -1,8 +1,12 @@
 source 'https://rubygems.org'
 
+gem 'devise'
+
 gem 'starter_generators', :git => "http://github.com/rbetina/starter_generators.git"
 
 gem 'kaminari'
+
+gem 'bcrypt', platforms: :ruby
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.2'
